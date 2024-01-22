@@ -1,15 +1,17 @@
 Boilerplate and Starter for Next.js with App Router support, Tailwind CSS and TypeScript 
+
 Has : 
-Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, Commitlint, VSCode Configurations, PostCSS, Tailwind CSS, Storybook
+- Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, Commitlint, VSCode Configurations, PostCSS, Tailwind CSS, Storybook.
+
 To add : 
-Testing Library for intergration testing - Playwright,
-Authentication, 
-Database (Mongo, PostgreSQL, or MySQL), 
-Logging and Error Monitoring - Sentry/NewRelic, 
-Monitoring as Code - Checkly, 
-Multi-language support (i18n) - next-intl , 
-Code Coverage - Codecov
-more 
+- Testing Library for intergration testing - Playwright,
+- Authentication, 
+- Database (Mongo, PostgreSQL, or MySQL),
+- Logging and Error Monitoring - Sentry/NewRelic,
+- Monitoring as Code - Checkly, 
+- Multi-language support (i18n) - next-intl , 
+- Code Coverage - Codecov
+...more 
 
 Deployed on vercel.
 

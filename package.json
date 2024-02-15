@@ -8,9 +8,9 @@
     "yarn": "please use npm"
   },
   "scripts": {
-    "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
+    "dev": "cross-env NODE_OPTIONS='-r @newrelic/next' next dev",
     "build": "next build",
-    "start": "next start",
+    "start": " NODE_OPTIONS='-r @newrelic/next' next start",
     "lint": "next lint",
     "prettier": "prettier --write .",
     "prepare": "husky install",
@@ -21,6 +21,8 @@
     "seed:init": "ts-node ./src/seeds/init.ts"
   },
   "dependencies": {
+    "@newrelic/next": "^0.7.0",
+    "newrelic": "^11.10.4",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
